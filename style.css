@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #625f5f;
+    margin: 0;
+    padding: 40px;
+}
+
+h1 {
+    color: rgb(10, 130, 235);
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+p.subtitle {
+    color: #090606;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th {
+    background-color: rgb(10, 130, 235);
+    color: white;
+    text-align: left;
+    padding: 12px 16px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+td {
+    padding: 12px 16px;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #e6f2ff;
+    transition: background-color 0.15s ease;
+}
+
+.controls {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 12px;
+}
+
+.controls button {
+    background-color: white;
+    color: rgb(10, 130, 235);
+    border: 2px solid rgb(10, 130, 235);
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.controls button:hover {
+    background-color: rgb(10, 130, 235);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(10, 130, 235, 0.3);
+}
+
+td:last-child {
+    font-weight: bold;
+    color: rgb(10, 130, 235);
+}
+
+tr:first-child {
+    animation: none;
+}

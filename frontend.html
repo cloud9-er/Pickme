@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BestBookBuy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>BestBookBuy</h1>
+    <p class="subtitle">Ranked by price and quality — the best value books, automatically.</p>
+
+    <div class="controls">
+        <button onclick="renderTable('score')">Best Value</button>
+        <button onclick="renderTable('rating')">Highest Rated</button>
+        <button onclick="renderTable('price')">Lowest Price</button>
+    </div>
+
+    <table id="book-table">
+        <tr>
+            <th>Rank</th>
+            <th>Title</th>
+            <th>Price</th>
+            <th>Rating</th>
+            <th>Score</th>
+        </tr>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
