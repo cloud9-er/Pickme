@@ -26,8 +26,8 @@ score = (0.6 × normalized_rating) + (0.4 × normalized_price)
 
 1. Clone the repository:
    ```
-   git clone https://github.com/cloud9-er/Pickme.git
-   cd Pickme
+   git clone https://github.com/cloud9-er/BestBookBuy.git
+   cd BestBookBuy
    ```
 
 2. Install the required libraries:
